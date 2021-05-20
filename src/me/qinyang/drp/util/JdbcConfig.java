@@ -1,4 +1,4 @@
-package me.qinyang.drp.model;
+package me.qinyang.drp.util;
 
 public class JdbcConfig {
 	private String driverName;

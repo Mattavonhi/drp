@@ -7,8 +7,6 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 
-import me.qinyang.drp.model.JdbcConfig;
-
 public class XmlConfigReader {
 	private static XmlConfigReader instance = null;
 	private JdbcConfig config = null;

@@ -6,8 +6,6 @@ import java.sql.SQLException;
 
 import org.dom4j.DocumentException;
 
-import me.qinyang.drp.model.JdbcConfig;
-
 public class DbUtil {
 	public static Connection getConnection(){
 		Connection conn = null;
