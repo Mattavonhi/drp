@@ -38,6 +38,7 @@ public class UserManager {
 			pstmt.setString(4, user.getContactTel());
 			pstmt.setString(5, user.getEmail());
 			pstmt.setTimestamp(6, new Timestamp(System.currentTimeMillis()));
+			pstmt.execute();
 		}catch(SQLException e){
 			e.printStackTrace();
 		}finally{
